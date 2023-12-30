@@ -25,8 +25,7 @@ map.attributionControl.setPrefix('');
 // Function to select a random color from a predefined palette
 
 function getRandomColor() {
-    // var colors = ['#634F5F', '#A46877', '#E08976', '#FFBA6A', '#F9F871']; // https://mycolor.space/?hex=%23333333&sub=1
-    var colors = ['#615e85', '#9c8dc2', '#d9a3cd', '#ebc3a7', '#e0e0dc', '#a3d1af', '#90b4de', '#717fb0']; // https://lospec.com/palette-list/sweethope
+    var colors = ['#a3d1af']; // https://lospec.com/palette-list/sweethope
     return colors[Math.floor(Math.random() * colors.length)];
 }
 
