@@ -42,7 +42,7 @@ function style(feature) {
 }
 
 // Parse the visited countries CSV file
-Papa.parse('countries/visited-countries.csv', {
+Papa.parse('visited-countries.csv', {
     download: true, // Download the file
     header: true, // Treat the first row as headers
     complete: function(results) {
@@ -54,7 +54,7 @@ Papa.parse('countries/visited-countries.csv', {
         // Fetch the GeoJSON file containing country data
         // https://mapshaper.org/
         // https://datahub.io/core/geo-countries
-        fetch('countries/countries.geojson')
+        fetch('countries.geojson')
             .then(function(response) {
                 return response.json(); // Parse the response as JSON
             })
