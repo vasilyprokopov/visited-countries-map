@@ -6,7 +6,7 @@ This is a static website template for creating a map showing countries a user ha
 - JavaScript code for map generation,
 - A CSV file listing visited countries.
 
-To add or remove countries visited, modify the CSV file `countries-visited.csv`.
+To add or remove countries visited, modify the CSV file `visited-countries.csv`.
 
 ## Example Map
 
