@@ -7,3 +7,7 @@ This is a static website template for creating a map showing countries a user ha
 - A CSV file listing visited countries.
 
 To add or remove countries visited, modify the CSV file `countries-visited.csv`.
+
+## Example Map
+
+![Example of Visited Countries Map](example.jpg)
