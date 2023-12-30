@@ -1,6 +1,6 @@
 # visited-countries-map
 
-This is a tool for creating maps showing countries a user has visited. It includes:
+This is a static website template for creating a map showing countries a user has visited. It includes:
 
 - A GeoJSON file with country boundaries,
 - JavaScript code for map generation,
